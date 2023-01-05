@@ -1,0 +1,30 @@
+<?xml version = "1.0"?>
+<Class>
+   <Student rollno = "16">
+      <Name>Aryan</Name>
+      <Marks>95</Marks>
+      <Address>Santa Cruz</Address>
+      <Branch>EXTC</Branch>
+   </Student>
+   
+   <Student rollno = "17">
+      <Name>Jai</Name>
+      <Marks>85</Marks>
+      <Address>Borivali</Address>
+      <Branch>EXTC</Branch>
+   </Student>
+   
+   <Student rollno = "48">
+      <Name>Rishabh</Name>
+      <Marks>90</Marks>
+      <Address>Charni Road</Address>
+      <Branch>IT</Branch>
+   </Student>
+   
+   <Student rollno = "34">
+      <Name>Aniket</Name>
+      <Marks>80</Marks>
+      <Address>Kalyan</Address>
+      <Branch>COMPS</Branch>
+   </Student>
+</Class>
