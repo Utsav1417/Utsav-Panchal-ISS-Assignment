@@ -1,0 +1,5 @@
+Learned about Need for database and Normalization from below links.
+
+https://www.tutorialspoint.com/Why-do-we-need-a-Database
+
+https://www.javatpoint.com/dbms-normalization
