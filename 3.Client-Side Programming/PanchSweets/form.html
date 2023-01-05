@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survery Form | PanchSweets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon.png">
+    <script type = "text/javascript" src="index.js"></script>
+
+</head>
+<html>
+  <body>
+    
+    <nav class="navigation">
+      <ul class="nav">
+        <li><h4><a href="index.html">Home</a></h4></li>
+        <li><h4><a href="form.html">Feedback Form</a></h4></li>
+        <li><h4><a href="order.html">Order Now</a></h4></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center"><b>PanchSweets | Survey Form</b></h1>
+        <p id="description" class="description text-center">
+          <b>Thank you for taking the time to help us improve.</b>
+        </p>
+      </header>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <label id="name-label" for="name">Phone Number</label>
+          <input
+            type="number"
+            name="Phone"
+            id="name"
+            class="form-control"
+            placeholder="Enter your Phone Number"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <p>Which option best describes you?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select one option</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="job">Housewife</option>
+            <option value="job">Businessman</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Would you recommend PanchSweets to a friend?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>What is your favorite snacks of PanchSweets?</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select the dish</option>
+            <option value="challenges">Dhokla</option>
+            <option value="projects">Khaman</option>
+            <option value="community">Handva</option>
+            <option value="openSource">Patra</option>
+            <option value="projects">Samosa</option>
+            <option value="community">Dahi vada</option>
+            <option value="openSource">Khandvi</option>
+            <option value="openSource">Fafda</option>
+            <option value="projects">Khakra</option>
+            <option value="community">Ghatiya</option>
+            <option value="openSource">Ghoogra</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <footer class = "footer" style="background-color: #4f5248; margin-top: 40px; ">
+    <div  class= "footer" style="text-align:center; height: 30px; margin: auto;">
+      <b>© 2022 Copyright</b>
+    </div>
+  </footer>
+
+  </body>
+  
+</html>

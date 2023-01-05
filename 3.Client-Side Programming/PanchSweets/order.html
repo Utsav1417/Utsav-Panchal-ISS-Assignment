@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | PanchSweets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon.png">
+    <script type = "text/javascript" src="index.js"></script>
+
+</head>
+<html>
+  <body>
+    
+    <nav class="navigation">
+      <ul class="nav">
+        <li><h4><a href="index.html">Home</a></h4></li>
+        <li><h4><a href="form.html">Feedback Form</a></h4></li>
+        <li><h4><a href="order.html">Order Now</a></h4></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center"><b>PanchSweets | Order Dish Now</b></h1>
+      </header>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+       
+        <div class="form-group">
+          <label id="phonenumber-label" for="phonenumber">Phone Number</label>
+          <input
+            type="number"
+            name="Phone"
+            id="name"
+            class="form-control"
+            placeholder="Enter your Phone Number"
+            required
+          />
+        </div>    
+
+        <div class="form-group">
+            <p>Address</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here..."
+            ></textarea>
+        </div>
+
+        <div class="form-group">
+          <p>Select the dish you want to order?</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select the dish</option>
+            <option value=1>Dhokla - 60/-</option>
+            <option value=2>Khaman - 60/-</option>
+            <option value=3>Handva - 100/-</option>
+            <option value=4>Patra  - 50/-</option>
+            <option value=5>Samosa - 20/-</option>
+            <option value=6>Ghatiya- 90/-</option>
+            <option value=7>Khandvi- 50/-</option>
+            <option value=8>Fafda  - 40/-</option>
+            <option value=9>Khakra - 30/-</option>
+            <option value=0>Ghatiya- 30/-</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+            <p>Select the number of plates you want to order?</p>
+            <select id="quantity" name="quant" class="form-control" required>
+              <option disabled selected value>Select the number</option>
+              <option value=1>1 Plate</option>
+              <option value=2>2 Plates</option>
+              <option value=3>3 Plates</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+          <p>Any note for cook?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="button" id="submit" class="submit-button" 
+          style="background-color: rgb(141, 141, 235); color:rgb(231, 231, 241);" onclick="calculateTotal()">
+            Calculate Total
+          </button>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Place Order
+          </button>
+        </div>
+
+        <p id="description" class="description text-center">
+            <b>Thank you for the order</b>
+        </p>
+
+      </form>
+    </div>
+
+    <footer class = "footer" style="background-color: #4f5248; margin-top: 40px; ">
+      <div  class= "footer" style="text-align:center; height: 30px; margin: auto;">
+        <b>© 2022 Copyright</b>
+      </div>
+    </footer>
+    
+  </body>
+  
+</html>
